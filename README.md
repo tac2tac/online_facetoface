@@ -1,25 +1,41 @@
-# online_facetoface 
+# online_facetoface
 
 ## データの変数とその定義
 
 | No   |     変数      | 定義 |
 | --- | ----------- | ------- |
-| 1 |   prefer     |                   |
+| 1 |   prefer     |     来期の授業形式はオンラインor対面のどちらが良いか             |
 | 2 | female | 女性なら1 男性なら0  |
-| 3 |   grade     |                   |
-| 4 |   question     |                   |
-| 5 |   unit     |                   |
-| 6 |   friend     |                   |
-| 7 |   schedule     |                   |
-| 8 |   homework     |                   |
-| 9 |   contents     |                   |
-| 10|   attend     |                   |
-| 11|  remark      |                   |
-| 12|   gpa     |                   |
-| 13|   drop     |                   |
-| 14|   studytime     |                   |
-| 15|   which     |                   |
+| 3 |   grade     |      大学在籍年数      |
+| 4 |   question     |     質問がしやすい              |
+| 5 |   unit     |     単位が取りやすい              |
+| 6 |   friend     |       友達と一緒に受けられる            |
+| 7 |   schedule     |      曜日・時間帯             |
+| 8 |   homework     |       宿題・レポートの量            |
+| 9 |   contents     |      内容への興味             |
+| 10|   attend     |       出席点がある            |
+| 11|  remark      |     発言点がある              |
+| 12|   gpa     |      通算GPA             |
+| 13|   drop     |     通算落単位数              |
+| 14|   studytime  |     1週間の勉強時間         |
+| 15|   which     |      一人で勉強派orみんなで勉強派             |
 
 ## 記述統計
 
-
+| No   |     変数      | 中央値 |  平均値  |  標準偏差  | 最小値  |  最大値    |
+| --- | ----------- | ------- | ------- |  -------- | ------- | -------- |
+| 1 |   prefer     |         |          |          |           |         |
+| 2 |   female       |         |          |          |           |         |
+| 3 |   grade       |         |          |          |           |         |
+| 4 |   question    |         |          |          |           |         |
+| 5 |   unit        |         |          |          |           |         |
+| 6 |   friend       |         |          |          |           |         |
+| 7 |   schedule     |         |          |          |           |         |
+| 8 |   homework     |         |          |          |           |         |
+| 9 |   contents     |         |          |          |           |         |
+| 10|   attend     |         |          |          |           |         |
+| 11|   remark      |         |          |          |           |         |
+| 12|   gpa        | 2.790   |   2.729  |     yet     | .980    |  3.760|
+| 13|   drop       |         |          |          |           |         |
+| 14|   studytime  |         |          |          |           |         |
+| 15|   which      |         |          |          |           |         |
