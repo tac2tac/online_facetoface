@@ -41,3 +41,4 @@ vignettes/*.pdf
 # Add by me
 *.Rproj
 .DS_Store
+stepaic.R
