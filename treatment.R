@@ -8,12 +8,13 @@ i["grade"] <- lapply(i["grade"], gsub, pattern="3年目", replacement = "3")
 i["grade"] <- lapply(i["grade"], gsub, pattern="4年目", replacement = "4")
 
 # 性別がその他の行を削除
-j <- i[-57,]
+k <- i[-57,]
 
 # 順序なし因子型に変換
-j$female <- as.factor(j$female)
+#j$female <- as.factor(j$female)
 
 # 順序つき因子型に変換
+if(0){
 j$grade <- as.ordered(j$grade)
 j$question <- as.ordered(j$question)
 j$unit <- as.ordered(j$unit)
@@ -26,3 +27,4 @@ j$remark <- as.ordered(j$remark)
 j$studystyle <- as.ordered(j$studystyle)
 j$prefer <- as.ordered(j$prefer)
 print(sapply(j, class))
+}
